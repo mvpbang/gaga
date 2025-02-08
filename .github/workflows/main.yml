@@ -13,3 +13,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    steps:
+    - 
+      name: touch file
+      run: ls -l $(mktemp) 
